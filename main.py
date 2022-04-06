@@ -1,9 +1,9 @@
 import discord
-import dotenv
+import os
 import random
 import emoji
 
-token = dotenv.get_key('.env', 'TOKEN')
+token = os.getenv('TOKEN')
 banned_msgs = ['rip', 'RIP', 'L', 'oui', 'OUI', 'oui oui', 'OUI OUI']
 
 
