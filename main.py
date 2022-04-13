@@ -4,7 +4,7 @@ import random
 import emoji
 
 token = os.getenv('TOKEN')
-banned_msgs = ['rip', 'RIP', 'L', 'oui', 'OUI', 'oui oui', 'ouioui', 'OUIOUI', 'OUI OUI', 'unluggy', 'tru', 'TRU']
+banned_msgs = ['rip', 'RIP', 'L', 'oui', 'OUI', 'oui oui', 'ouioui', 'OUIOUI', 'OUI OUI', 'unluggy', 'tru', 'TRU', 'choggers']
 
 
 class Client(discord.Client):
